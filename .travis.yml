@@ -1,0 +1,1 @@
+install: wget -P utils/ https://github.com/heroku/force/releases/download/v0.22.50/force_linux_amd64

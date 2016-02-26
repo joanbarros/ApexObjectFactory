@@ -9,7 +9,7 @@
     -->
     <condition property="sf.username" value="${env.SF_USER}"> <not> <isset property="sf.username"/> </not> </condition>
     <condition property="sf.password" value="${env.SF_PASS}"> <not> <isset property="sf.password"/> </not> </condition>
-    <condition property="sf.sessionId" value="${env.SF_SESSIONID}"> <not> <isset property="sf.sessionId"/> </not> </condition>
+    <condition property="sf.sessionId" value=""> <not> <isset property="sf.sessionId"/> </not> </condition>
 
     <taskdef resource="com/salesforce/antlib.xml" uri="antlib:com.salesforce">
         <classpath>

@@ -5,6 +5,8 @@
         <members>DataFactory_Test</members>
         <members>ObjectFactory</members>
         <members>ObjectFactory_Test</members>
+	<members>IDataGen</members>
+	<members>Configuration</members>
         <name>ApexClass</name>
     </types>
     <version>15.0</version>
